@@ -1,0 +1,128 @@
+#######################################################################
+#                       Carbon isotopes
+#######################################################################
+Carbon_1=12.00000
+Carbon_2=13.00335
+Carbon_difference=Carbon_2-Carbon_1
+Carbon_difference
+######################################################################
+#                       Isotopes
+######################################################################
+Carbon_number <- readline(prompt="Enter number of Carbon atoms in your molecule: ")
+Carbon_number=as.integer(Carbon_number)
+i=Carbon_1*Carbon_number
+i
+Carbon=i+Carbon_difference
+Carbon
+Carbon_difference
+    for (Carbon in 1:Carbon_number){
+      print(i+Carbon)
+        }
+      
+      print(paste("The isotope is", i+Carbon))
+      sprintf("%.5f",i+Carbon)
+
+
+#######################################################################
+#                       Hydrogen isotopes
+#######################################################################
+Hydrogen_1=1.00782
+Hydrogen_2=2.01410
+Hydrogen_difference=Hydrogen_2-Hydrogen_1
+Hydrogen_difference
+######################################################################
+#                       Isotopes
+######################################################################
+Hydrogen_number <- readline(prompt="Enter number of Hydrogen atoms in your molecule: ")
+Hydrogen_number=as.integer(Hydrogen_number)
+i=Hydrogen_1*Hydrogen_number
+i
+Hydrogen=i+Hydrogen_difference
+Hydrogen
+Hydrogen_difference
+    for (Hydrogen in 1:Hydrogen_number){
+      print(i+Hydrogen)
+        }
+      
+      
+#######################################################################
+#                       Nitrogen isotopes
+#######################################################################
+Nitrogen_1=14.00307
+Nitrogen_2=15.00010
+Nitrogen_difference=Nitrogen_2-Nitrogen_1
+Nitrogen_difference
+######################################################################
+#                       Isotopes
+######################################################################
+Nitrogen_number <- readline(prompt="Enter number of Nitrogen atoms in your molecule: ")
+Nitrogen_number=as.integer(Nitrogen_number)
+i=Nitrogen_1*Nitrogen_number
+i
+Nitrogen=i+Nitrogen_difference
+Nitrogen
+Nitrogen_difference
+    for (Nitrogen in 1:Nitrogen_number){
+      print(i+Nitrogen)
+        }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+#######################################################################
+#                       Oxygen isotopes
+#######################################################################
+Oxygen_1=15.99491
+Oxygen_2=16.99913
+Oxygen_3=17.99915
+Oxygen_difference=Oxygen_2-Oxygen_1
+Oxygen_difference
+######################################################################
+#                       Isotopes
+######################################################################
+Oxygen_number <- readline(prompt="Enter number of Oxygen atoms in your molecule: ")
+Oxygen_number=as.integer(Oxygen_number)
+i=Oxygen_1*Oxygen_number
+i
+Oxygen=i+Oxygen_difference
+Oxygen
+Oxygen_difference
+    for (Oxygen in 1:Oxygen_number){
+      print(i+Oxygen)
+        }
+      
+#######################################################################
+#                       Sulfur isotopes
+#######################################################################
+Sulfur=15.99491
+Sulfur_2=16.99913
+Sulfur_3=17.99915
+Sulfur_difference=Sulfur_2-Sulfur_1
+Sulfur_difference
+######################################################################
+#                       Isotopes
+######################################################################
+Sulfur_number <- readline(prompt="Enter number of Sulfur atoms in your molecule: ")
+Sulfur_number=as.integer(Sulfur_number)
+i=Sulfur_1*Sulfur_number
+i
+Sulfur=i+Sulfur_difference
+Sulfur
+Sulfur_difference
+    for (Sulfur in 1:Oxygen_number){
+      print(i+Sulfur)
+        }
+      
